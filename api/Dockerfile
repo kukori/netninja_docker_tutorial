@@ -1,5 +1,5 @@
 # image:tag
-FROM node:latest
+FROM node:17-alpine
 
 # installed nodemon globally in the container it will restart the server if the content changes
 RUN npm i -g nodemon

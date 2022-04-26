@@ -8,3 +8,11 @@ services:
     volumes:
       - ./api:/app
       - ./app/node_modules
+  client:
+    build: ./myblog
+    container_name: client_container
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./myblog:/app
+      - ./app/node_modules
