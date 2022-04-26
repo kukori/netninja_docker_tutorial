@@ -39,3 +39,5 @@ CMD ["npm", "run", "dev"]
 # sudo docker container rm upbeat_villani
 # delete all images/containers/volumes at once: sudo docker system prune -a
 # sudo docker-compose up
+# -v removes the volumes as well
+# sudo docker-compose down -v
